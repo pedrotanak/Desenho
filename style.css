@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+    margin: auto;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(11deg, rgba(2, 0, 36, 1) 0%, rgba(111, 111, 205, 1) 10%, rgba(0, 30, 215, 1) 17%, rgba(69, 20, 124, 1) 27%, rgba(255, 23, 90, 1) 37%, rgba(89, 0, 255, 1) 46%, rgba(97, 238, 25, 1) 56%, rgba(6, 152, 15, 1) 67%, rgba(33, 218, 163, 1) 76%, rgba(21, 91, 85, 1) 86%, rgba(0, 212, 255, 1) 93%, rgba(227, 255, 0, 1) 100%);
+}
+h1{
+    font-size: 50px;
+    color: aliceblue;
+    margin-left: 12%;
+}
+#mostraExemplos{
+    float:right;
+    font-size: 25px;
+    background-color: darkblue;
+}
+p{
+    font-size: 25px;
+    padding-top: 10px;
+    font-weight: 300;
+    color: aliceblue;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top: 50px;
+    animation-name: luz;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes luz{
+               from{box-shadow:  1px 1px 38px grey;}
+               to{box-shadow: 1px 1px 30px white;}
+} 
